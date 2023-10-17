@@ -1,4 +1,4 @@
-package com.ironbit.invex.ironbit.exception;
+package com.ironbit.invex.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.ironbit.invex.ironbit;
+package com.ironbit.invex;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

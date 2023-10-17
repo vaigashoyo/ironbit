@@ -1,8 +1,8 @@
-package com.ironbit.invex.ironbit.services;
+package com.ironbit.invex.services;
 
-import com.ironbit.invex.ironbit.entities.Empleado;
-import com.ironbit.invex.ironbit.exception.ApplicationException;
-import com.ironbit.invex.ironbit.repositories.EmpleadoRepository;
+import com.ironbit.invex.entities.Empleado;
+import com.ironbit.invex.exception.ApplicationException;
+import com.ironbit.invex.repositories.EmpleadoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

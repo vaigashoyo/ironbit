@@ -1,6 +1,6 @@
-package com.ironbit.invex.ironbit.repositories;
+package com.ironbit.invex.repositories;
 
-import com.ironbit.invex.ironbit.entities.Empleado;
+import com.ironbit.invex.entities.Empleado;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

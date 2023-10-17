@@ -1,4 +1,4 @@
-package com.ironbit.invex.ironbit.entities;
+package com.ironbit.invex.entities;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;

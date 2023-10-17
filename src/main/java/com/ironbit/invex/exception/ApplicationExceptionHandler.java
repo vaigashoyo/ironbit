@@ -1,5 +1,7 @@
-package com.ironbit.invex.ironbit.exception;
+package com.ironbit.invex.exception;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpStatus;
@@ -15,12 +17,16 @@ import java.util.UUID;
 @RestControllerAdvice
 @Order(Ordered.HIGHEST_PRECEDENCE)
 public class ApplicationExceptionHandler extends ResponseEntityExceptionHandler {
-
+    Logger logger = LoggerFactory.getLogger(ApplicationExceptionHandler.class);
     @ExceptionHandler(ApplicationException.class)
     public ResponseEntity<?> handleApplicationException(
             final ApplicationException exception, final HttpServletRequest request
     ) {
         String guid = UUID.randomUUID().toString();
+        logger.error(
+                String.format("Error GUID=%s; error message: %s", guid, exception.getMessage()),
+                exception
+        );
         ApiErrorResponse response = new ApiErrorResponse(
                 guid,
                 exception.getErrorCode(),
@@ -39,6 +45,10 @@ public class ApplicationExceptionHandler extends ResponseEntityExceptionHandler 
             final Exception exception, final HttpServletRequest request
     ) {
         String guid = UUID.randomUUID().toString();
+        logger.error(
+                String.format("Error GUID=%s; error message: %s", guid, exception.getMessage()),
+                exception
+        );
         ApiErrorResponse response = new ApiErrorResponse(
                 guid,
                 "500",

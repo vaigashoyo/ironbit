@@ -1,6 +1,6 @@
-package com.ironbit.invex.ironbit.services;
+package com.ironbit.invex.services;
 
-import com.ironbit.invex.ironbit.entities.Empleado;
+import com.ironbit.invex.entities.Empleado;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,0 +1,156 @@
+2023-10-17 00:00:54,249 [INFO] com.ironbit.invex.IronbitApplication [main] Starting IronbitApplication using Java 1.8.0_211 on Guillermos-MBP.domain.name with PID 15535 (/Users/loyo/Documents/development/ironbit/target/classes started by loyo in /Users/loyo/Documents/development/ironbit)
+2023-10-17 00:00:54,263 [INFO] com.ironbit.invex.IronbitApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-17 00:00:55,523 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-17 00:00:55,594 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+2023-10-17 00:00:56,240 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-10-17 00:00:56,251 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-10-17 00:00:56,251 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-10-17 00:00:56,399 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-10-17 00:00:56,399 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1999 ms
+2023-10-17 00:00:56,635 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-17 00:00:56,683 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-17 00:00:56,818 [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-17 00:00:56,997 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-17 00:00:57,359 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-17 00:00:57,375 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-10-17 00:00:58,029 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-17 00:00:58,043 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17 00:00:58,569 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-17 00:00:59,038 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-17 00:00:59,056 [INFO] com.ironbit.invex.IronbitApplication [main] Started IronbitApplication in 5.477 seconds (JVM running for 6.429)
+2023-10-17 00:01:07,520 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-17 00:01:07,520 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-17 00:01:07,522 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-10-17 00:02:23,628 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17 00:02:23,631 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-17 00:02:23,641 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-17 00:02:34,371 [INFO] com.ironbit.invex.IronbitApplication [main] Starting IronbitApplication using Java 1.8.0_211 on Guillermos-MBP.domain.name with PID 15570 (/Users/loyo/Documents/development/ironbit/target/classes started by loyo in /Users/loyo/Documents/development/ironbit)
+2023-10-17 00:02:34,377 [DEBUG] com.ironbit.invex.IronbitApplication [main] Running with Spring Boot v2.7.17-SNAPSHOT, Spring v5.3.30
+2023-10-17 00:02:34,378 [INFO] com.ironbit.invex.IronbitApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-17 00:02:35,628 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-17 00:02:35,703 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2023-10-17 00:02:36,340 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-10-17 00:02:36,349 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-10-17 00:02:36,349 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-10-17 00:02:36,492 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-10-17 00:02:36,493 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1977 ms
+2023-10-17 00:02:36,733 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-17 00:02:36,771 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-17 00:02:36,904 [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-17 00:02:37,074 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-17 00:02:37,444 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-17 00:02:37,459 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-10-17 00:02:38,044 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-17 00:02:38,055 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17 00:02:38,434 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-17 00:02:38,837 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-17 00:02:38,849 [INFO] com.ironbit.invex.IronbitApplication [main] Started IronbitApplication in 5.152 seconds (JVM running for 6.074)
+2023-10-17 00:02:52,210 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-17 00:02:52,210 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-17 00:02:52,211 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-10-17 00:02:52,251 [TRACE] com.ironbit.invex.controllers.EmpleadoController [http-nio-8080-exec-1] Call get all empleado service
+2023-10-17 00:03:11,443 [TRACE] com.ironbit.invex.controllers.EmpleadoController [http-nio-8080-exec-3] Call get all empleado service
+2023-10-17 00:04:11,075 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17 00:04:11,078 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-17 00:04:11,087 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-17 00:04:16,320 [INFO] com.ironbit.invex.IronbitApplication [main] Starting IronbitApplication using Java 1.8.0_211 on Guillermos-MBP.domain.name with PID 15590 (/Users/loyo/Documents/development/ironbit/target/classes started by loyo in /Users/loyo/Documents/development/ironbit)
+2023-10-17 00:04:16,329 [DEBUG] com.ironbit.invex.IronbitApplication [main] Running with Spring Boot v2.7.17-SNAPSHOT, Spring v5.3.30
+2023-10-17 00:04:16,331 [INFO] com.ironbit.invex.IronbitApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-17 00:04:17,617 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-17 00:04:17,681 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2023-10-17 00:04:18,290 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-10-17 00:04:18,299 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-10-17 00:04:18,300 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-10-17 00:04:18,446 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-10-17 00:04:18,446 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1935 ms
+2023-10-17 00:04:18,696 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-17 00:04:18,737 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-17 00:04:18,884 [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-17 00:04:19,059 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-17 00:04:19,427 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-17 00:04:19,442 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-10-17 00:04:20,055 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-17 00:04:20,066 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17 00:04:20,450 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-17 00:04:20,916 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-17 00:04:20,930 [INFO] com.ironbit.invex.IronbitApplication [main] Started IronbitApplication in 5.424 seconds (JVM running for 6.36)
+2023-10-17 00:05:31,924 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17 00:05:31,927 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-17 00:05:31,938 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-17 00:05:36,866 [INFO] com.ironbit.invex.IronbitApplication [main] Starting IronbitApplication using Java 1.8.0_211 on Guillermos-MBP.domain.name with PID 15602 (/Users/loyo/Documents/development/ironbit/target/classes started by loyo in /Users/loyo/Documents/development/ironbit)
+2023-10-17 00:05:36,869 [DEBUG] com.ironbit.invex.IronbitApplication [main] Running with Spring Boot v2.7.17-SNAPSHOT, Spring v5.3.30
+2023-10-17 00:05:36,871 [INFO] com.ironbit.invex.IronbitApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-17 00:05:37,982 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-17 00:05:38,074 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interfaces.
+2023-10-17 00:05:38,709 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-10-17 00:05:38,717 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-10-17 00:05:38,717 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-10-17 00:05:38,860 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-10-17 00:05:38,860 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1902 ms
+2023-10-17 00:05:38,916 [DEBUG] org.springframework.web.filter.CommonsRequestLoggingFilter [main] Filter 'requestLoggingFilter' configured for use
+2023-10-17 00:05:39,091 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-17 00:05:39,137 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-17 00:05:39,275 [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-17 00:05:39,443 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-17 00:05:39,823 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-17 00:05:39,837 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-10-17 00:05:40,457 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-17 00:05:40,468 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17 00:05:40,840 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-17 00:05:40,997 [DEBUG] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-10-17 00:05:41,094 [DEBUG] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 6 mappings in 'requestMappingHandlerMapping'
+2023-10-17 00:05:41,121 [DEBUG] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-10-17 00:05:41,136 [DEBUG] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-10-17 00:05:41,277 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-17 00:05:41,290 [INFO] com.ironbit.invex.IronbitApplication [main] Started IronbitApplication in 5.085 seconds (JVM running for 6.012)
+2023-10-17 00:05:50,268 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-17 00:05:50,268 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-10-17 00:05:50,268 [DEBUG] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Detected StandardServletMultipartResolver
+2023-10-17 00:05:50,269 [DEBUG] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Detected AcceptHeaderLocaleResolver
+2023-10-17 00:05:50,269 [DEBUG] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Detected FixedThemeResolver
+2023-10-17 00:05:50,270 [DEBUG] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1f949ab9
+2023-10-17 00:05:50,271 [DEBUG] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Detected org.springframework.web.servlet.support.SessionFlashMapManager@3ffd4b12
+2023-10-17 00:05:50,271 [DEBUG] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-10-17 00:05:50,271 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 3 ms
+2023-10-17 00:05:50,287 [DEBUG] org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8080-exec-2] Before request [GET /api/v1/empleado, headers=[user-agent:"PostmanRuntime/7.33.0", accept:"*/*", cache-control:"no-cache", postman-token:"e29b3d2f-06ad-4311-8f88-9df38d23a30b", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive"]]
+2023-10-17 00:05:50,294 [DEBUG] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] GET "/api/v1/empleado", parameters={}
+2023-10-17 00:05:50,305 [DEBUG] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-2] Mapped to com.ironbit.invex.controllers.EmpleadoController#getAll()
+2023-10-17 00:05:50,323 [TRACE] com.ironbit.invex.controllers.EmpleadoController [http-nio-8080-exec-2] Call get all empleado service
+2023-10-17 00:05:50,553 [DEBUG] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [http-nio-8080-exec-2] Using 'application/json', given [*/*] and supported [application/json]
+2023-10-17 00:05:50,569 [DEBUG] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [http-nio-8080-exec-2] Writing [[Empleado(id=3, primerNombre=Guillermo, segundoNombre=David, apPaterno=Loyo, apMaterno=Gomez, edad=3 (truncated)...]
+2023-10-17 00:05:50,656 [DEBUG] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed 200 OK
+2023-10-17 00:05:50,658 [DEBUG] org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8080-exec-2] After request [GET /api/v1/empleado, headers=[user-agent:"PostmanRuntime/7.33.0", accept:"*/*", cache-control:"no-cache", postman-token:"e29b3d2f-06ad-4311-8f88-9df38d23a30b", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive"]]
+2023-10-17 00:06:27,357 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17 00:06:27,360 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-17 00:06:27,369 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-17 00:06:32,387 [INFO] com.ironbit.invex.IronbitApplication [main] Starting IronbitApplication using Java 1.8.0_211 on Guillermos-MBP.domain.name with PID 15614 (/Users/loyo/Documents/development/ironbit/target/classes started by loyo in /Users/loyo/Documents/development/ironbit)
+2023-10-17 00:06:32,393 [DEBUG] com.ironbit.invex.IronbitApplication [main] Running with Spring Boot v2.7.17-SNAPSHOT, Spring v5.3.30
+2023-10-17 00:06:32,395 [INFO] com.ironbit.invex.IronbitApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-17 00:06:33,638 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-17 00:06:33,706 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interfaces.
+2023-10-17 00:06:34,277 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-10-17 00:06:34,288 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-10-17 00:06:34,289 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-10-17 00:06:34,444 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-10-17 00:06:34,445 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1878 ms
+2023-10-17 00:06:34,527 [DEBUG] org.springframework.web.filter.CommonsRequestLoggingFilter [main] Filter 'requestLoggingFilter' configured for use
+2023-10-17 00:06:34,698 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-17 00:06:34,752 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-17 00:06:34,888 [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-17 00:06:35,052 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-17 00:06:35,416 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-17 00:06:35,430 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-10-17 00:06:36,079 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-17 00:06:36,090 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17 00:06:36,520 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-17 00:06:36,989 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-17 00:06:37,002 [INFO] com.ironbit.invex.IronbitApplication [main] Started IronbitApplication in 5.332 seconds (JVM running for 6.225)
+2023-10-17 00:06:42,128 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-17 00:06:42,129 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-10-17 00:06:42,133 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 3 ms
+2023-10-17 00:06:42,185 [DEBUG] org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8080-exec-2] Before request [GET /api/v1/empleado, headers=[user-agent:"PostmanRuntime/7.33.0", accept:"*/*", cache-control:"no-cache", postman-token:"81299e29-6577-4e0a-a87b-cd21c31852ca", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive"]]
+2023-10-17 00:06:42,274 [TRACE] com.ironbit.invex.controllers.EmpleadoController [http-nio-8080-exec-2] Call get all empleado service
+2023-10-17 00:06:42,633 [DEBUG] org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8080-exec-2] After request [GET /api/v1/empleado, headers=[user-agent:"PostmanRuntime/7.33.0", accept:"*/*", cache-control:"no-cache", postman-token:"81299e29-6577-4e0a-a87b-cd21c31852ca", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive"]]
+2023-10-17 00:16:02,258 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17 00:16:02,264 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-17 00:16:02,274 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
