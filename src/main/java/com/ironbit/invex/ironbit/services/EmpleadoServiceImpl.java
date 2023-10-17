@@ -1,8 +1,10 @@
 package com.ironbit.invex.ironbit.services;
 
 import com.ironbit.invex.ironbit.entities.Empleado;
+import com.ironbit.invex.ironbit.exception.ApplicationException;
 import com.ironbit.invex.ironbit.repositories.EmpleadoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -31,6 +33,14 @@ public class EmpleadoServiceImpl implements EmpleadoService{
 
     @Override
     public void delete(Long id) {
+        Optional<Empleado> emp = empleadoRepository.findById(id);
+        if(!emp.isPresent()){
+            throw new ApplicationException(
+                    "Empleado no encontrado",
+                    String.format("Empleado id=%d no encontrado", id),
+                    HttpStatus.NOT_FOUND
+            );
+        }
         empleadoRepository.deleteById(id);
     }
 
